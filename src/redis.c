@@ -3593,6 +3593,7 @@ void redisSetProcTitle(char *title) {
 #endif
 }
 
+#if 0
 int main(int argc, char **argv) {
     struct timeval tv;
 
@@ -3714,3 +3715,4 @@ int main(int argc, char **argv) {
 }
 
 /* The End */
+#endif
